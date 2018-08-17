@@ -154,9 +154,6 @@ all_y = np.concatenate((all_y, males_y, females_y))
 
 
 
-#removed = [0 for i in range(removed_size)]
-
-
 removed_size = 3
 
 removed_size_low_exp = 3
@@ -170,18 +167,12 @@ truncated_males_x = np.delete(truncated_males_x, removed)  #  take out the outli
 truncated_males_y = np.delete(truncated_males_y, removed)
 
 
-#print(males_y[removed[0]], males_y[removed[1]], removed)
 
 
-
-
-#print(females_x)
 
 highest_female_exp = findmax(females_x, 1)
 
 
-
-# print(females_x[highest_female_exp[0]])
 
 experienced_males = higher(males_x, females_x[highest_female_exp[0]] )  #  find the set of men who are more experienced than all women
 
