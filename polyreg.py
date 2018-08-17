@@ -133,9 +133,14 @@ all_x = np.concatenate((all_x, males_x, females_x))
 
 all_y = np.concatenate((all_y, males_y, females_y))
 
-removed_size = 3
 
-removed_size_low_exp = 3
+
+removed_size = 3  #  exclude this many high-earning outliers from the male sample
+
+removed_size_low_exp = 3  # exclude this many high-earning outliers from the restricted experience sample
+
+
+
 
 removed = findmax(males_y, removed_size)
 
