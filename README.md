@@ -3,7 +3,7 @@
 
 ## Instructions:
 
-Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots. 
+Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots yourself. (Links to images further down in this post)
 
 
 
