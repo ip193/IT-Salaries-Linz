@@ -48,7 +48,6 @@ Sample size was also rather small, particularly for female respondents.
 
 Note also that respondents could indicate how many hours of overtime are in their contract, but I did not factor that into the analysis, meaning I plotted 35000 for 40 hours a week the same as 35000 with 40 hours + 15 hours overtime. 
 
-
-[Here is the source code and the survey data](https://github.com/ip193/IT-Salaries-Linz/), if anyone is interested. Thanks for reading!
+[reddit discussion](https://old.reddit.com/r/cscareerquestionsEU/comments/9854bi/analysis_of_it_salaries_in_linz_austria/)
 
  
