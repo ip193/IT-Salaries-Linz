@@ -12,7 +12,7 @@ Make sure you have the numpy, matplotlib and csv modules, then simply run polyre
 
 ----------
 
-## Regression analysis of self-reported IT salaries in Linz, Austria. (n = 300)
+## Regression analysis of self-reported IT salaries in Linz, Austria. (n = 280)
 
 I recently stumbled upon a [link](https://old.reddit.com/r/Austria/comments/975j7i/itgeh%C3%A4lter_in_%C3%B6sterreich/e47znfy/) to a survey of IT professionals in Linz that recorded salary, years of experience, and gender. In total, 307 people replied. 
 
