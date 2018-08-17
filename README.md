@@ -1,7 +1,7 @@
 # IT-Salaries-Linz
 
 
-##Instructions: 
+## Instructions:
 
 Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots. 
 
