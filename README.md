@@ -12,7 +12,7 @@ Make sure you have the numpy, matplotlib and csv modules, then simply run polyre
 
 ----------
 
-Regression analysis of self-reported IT salaries in Linz, Austria. (n = 300)
+## Regression analysis of self-reported IT salaries in Linz, Austria. (n = 300)
 
 I recently stumbled upon a [link](https://old.reddit.com/r/Austria/comments/975j7i/itgeh%C3%A4lter_in_%C3%B6sterreich/e47znfy/) to a survey of IT professionals in Linz that recorded salary, years of experience, and gender. In total, 307 people replied. 
 
@@ -34,7 +34,7 @@ It's interesting to note that female salaries trended noticably lower than male 
 Here is the result: [Male salaries vs. Female salaries, with experience <= 12 years, top 3 outliers removed](https://i.imgur.com/4hyl1Bz.png) 
 
 
-*Some notes on the methodology: * 
+### Some notes on the methodology: 
 
 
 From all the respondents, I only considered those who worked full-time and gave information for y.o.e and salary. 7 participants indicated they are working part-time, so they have been excluded from the analysis. Similarly, 20 respondents did not indicate their years of experience, so they too were removed. 
