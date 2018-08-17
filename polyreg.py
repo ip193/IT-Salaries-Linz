@@ -139,9 +139,9 @@ all_y = np.concatenate((all_y, males_y, females_y))
 print("Mean experience for male/female respondents: " + str(np.mean(males_x)) + " , " + str(np.mean(females_x)))
 
 
-removed_size = 3
+removed_size = 3  #  how many outliers to take out when comparing males vs. females
 
-removed_size_low_exp = 3
+removed_size_low_exp = 3  #  how many outliers to take out in the experience-restricted analysis
 
 removed = findmax(males_y, removed_size)
 
