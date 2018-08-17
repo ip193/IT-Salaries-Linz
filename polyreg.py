@@ -63,6 +63,8 @@ with open(filename, 'r') as f:  # extract the data
 
             else:
 
+                # print("no experience")
+
                 continue
 
             word = line[7]  # store gender as a letter
@@ -134,13 +136,12 @@ all_x = np.concatenate((all_x, males_x, females_x))
 all_y = np.concatenate((all_y, males_y, females_y))
 
 
-
-removed_size = 3  #  exclude this many high-earning outliers from the male sample
-
-removed_size_low_exp = 3  # exclude this many high-earning outliers from the restricted experience sample
+print("Mean experience for male/female respondents: " + str(np.mean(males_x)) + " , " + str(np.mean(females_x)))
 
 
+removed_size = 3
 
+removed_size_low_exp = 3
 
 removed = findmax(males_y, removed_size)
 
