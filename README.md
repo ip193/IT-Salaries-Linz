@@ -1,16 +1,6 @@
 # IT-Salaries-Linz
 
 
-## Instructions:
-
-Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots yourself. (Links to images can be found further down in this post)
-
-
-
-
-
-
-----------
 
 ## Regression analysis of self-reported IT salaries in Linz, Austria. (n = 280)
 
@@ -49,5 +39,18 @@ Sample size was also rather small, particularly for female respondents.
 Note also that respondents could indicate how many hours of overtime are in their contract, but I did not factor that into the analysis, meaning I plotted 35000 for 40 hours a week the same as 35000 with 40 hours + 15 hours overtime. 
 
 [reddit discussion](https://old.reddit.com/r/cscareerquestionsEU/comments/9854bi/analysis_of_it_salaries_in_linz_austria/)
+
+
+-------------
+
+
+## Instructions:
+
+Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots yourself. (Links to images can be found further down in this post)
+
+
+
+
+
 
  
