@@ -1,14 +1,10 @@
 # IT-Salaries-Linz
 
-
-
 ## Regression analysis of self-reported IT salaries in Linz, Austria. (n = 280)
 
-I recently stumbled upon a [link](https://old.reddit.com/r/Austria/comments/975j7i/itgeh%C3%A4lter_in_%C3%B6sterreich/e47znfy/) to a survey of IT professionals in Linz that recorded salary, years of experience, and gender. In total, 307 people replied. 
+### Survey Data: [Online survey](https://old.reddit.com/r/Austria/comments/975j7i/itgeh%C3%A4lter_in_%C3%B6sterreich/e47znfy/) of IT professionals in Linz that recorded salary, years of experience, and gender. In total, 307 people replied. 
 
-
-
-In the end, there were 280 valid responses, of which 242 reported male gender, 32 reported female gender, and 4 did not indicate gender. 
+There were 280 valid responses, of which 242 reported male gender, 32 reported female gender, and 4 did not indicate gender. 
 
 Salaries ranged from €23,100 to 150,000. The median reported salary and years of experience were €47,600 and 6 years, respectively. 
 
@@ -24,7 +20,7 @@ It's interesting to note that female salaries trended noticably lower than male 
 Here is the result: [Male salaries vs. Female salaries, with experience <= 12 years, top 3 outliers removed](https://i.imgur.com/4hyl1Bz.png) 
 
 
-### Some notes on the methodology: 
+### Notes on the methodology: 
 
 
 From all the respondents, I only considered those who worked full-time and gave information for y.o.e and salary. 7 participants indicated they are working part-time, so they have been excluded from the analysis. Similarly, 20 respondents did not indicate their years of experience, so they too were removed. 
@@ -46,7 +42,7 @@ Note also that respondents could indicate how many hours of overtime are in thei
 
 ## Instructions:
 
-Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots yourself. (Links to images can be found further down in this post)
+Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots yourself. 
 
 
 
