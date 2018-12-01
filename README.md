@@ -2,7 +2,7 @@
 
 ## Regression analysis of self-reported IT salaries in Linz, Austria. (n = 280)
 
-##### Data: [Online survey](https://old.reddit.com/r/Austria/comments/975j7i/itgeh%C3%A4lter_in_%C3%B6sterreich/e47znfy/) of IT professionals in Linz that recorded salary, years of experience, and gender. In total, 307 people replied. 
+#### Data: [Online survey](https://old.reddit.com/r/Austria/comments/975j7i/itgeh%C3%A4lter_in_%C3%B6sterreich/e47znfy/) of IT professionals in Linz that recorded salary, years of experience, and gender. In total, 307 people replied. 
 
 There were 280 valid responses, of which 242 reported male gender, 32 reported female gender, and 4 did not indicate gender. 
 
