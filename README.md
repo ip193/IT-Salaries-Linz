@@ -15,7 +15,7 @@ Here are some plots of the data featuring regression from python's numpy library
 [Male salaries vs. Female salaries (top 3 outliers removed)](https://i.imgur.com/SsK1CYJ.png)
 
 
-It's interesting to note that female salaries trended noticably lower than male salaries. Also, women reported less experience on average than their male counterparts. To see what would happen, I disregarded all males who reported higher experience than every female respondent (read: I restricted the analysis to respondents who reported <=12 years of experience). From this restricted sample, I then also removed the 3 respondents who reported the highest salaries. 
+It is interesting to note that female salaries trended noticably lower than male salaries. Also, women reported less experience on average than their male counterparts. To see what would happen, I disregarded all males who reported higher experience than every female respondent (read: I restricted the analysis to respondents who reported <=12 years of experience). From this restricted sample, I then also removed the 3 respondents who reported the highest salaries. 
 
 Here is the result: [Male salaries vs. Female salaries, with experience <= 12 years, top 3 outliers removed](https://i.imgur.com/4hyl1Bz.png) 
 
@@ -23,30 +23,27 @@ Here is the result: [Male salaries vs. Female salaries, with experience <= 12 ye
 ### Notes on the methodology: 
 
 
-From all the respondents, I only considered those who worked full-time and gave information for y.o.e and salary. 7 participants indicated they are working part-time, so they have been excluded from the analysis. Similarly, 20 respondents did not indicate their years of experience, so they too were removed. 
+From all the respondents, I only considered those who worked full-time and gave information for y.o.e and salary. (Excluded 27 respondents from the analysis).
 
-
-Take the results of this survey with a grain of salt. Self-reported data has a host of weaknesses, starting with accuracy. Not everyone knows their exact salary, and respondents might have been estimating the value of their total compensation. Some might have been answering in bad faith. 
+Self-reported data has a host of weaknesses, starting with accuracy. Not everyone knows their exact salary, and respondents might have been estimating the value of their total compensation or adding/excluding benefits. 
 
 Selection bias is a problem, since this is informal data from respondents active on reddit. 
 
 Sample size was also rather small, particularly for female respondents. 
 
-Note also that respondents could indicate how many hours of overtime are in their contract, but I did not factor that into the analysis, meaning I plotted 35000 for 40 hours a week the same as 35000 with 40 hours + 15 hours overtime. 
+Salary data for full-time work ignores exact hours worked per week; i.e. 35000 for 40 hours a week was plotted the same as 35000 with 40 hours + 15 hours overtime. 
 
 [reddit discussion](https://old.reddit.com/r/cscareerquestionsEU/comments/9854bi/analysis_of_it_salaries_in_linz_austria/)
 
 
--------------
-
-
 ## Instructions:
 
-Make sure you have the numpy, matplotlib and csv modules, then simply run polyreg.py from the console to render the plots yourself. 
+Make sure you have the numpy, matplotlib and csv modules, then run polyreg.py from the console to render the plots. 
 
 
+-------- 
 
-
+This project is licensed under the terms of the MIT license.
 
 
  
